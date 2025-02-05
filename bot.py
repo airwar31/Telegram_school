@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 from bs4 import BeautifulSoup as BS
 from requests import get
-bot=telebot.TeleBot("6578892721:AAH2J1HsqO6LKD6xBYaHT9MBHbJY3i-jAAw")
+bot=telebot.TeleBot(TOKEN)
 
 
 joinedFile = open("id.txt", "r")
